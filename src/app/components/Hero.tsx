@@ -8,17 +8,20 @@ export function Hero() {
 
   const slides = [
     {
-      image: "https://images.unsplash.com/photo-1721206624438-59a38acac7e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlbGVnYW50JTIwd2VkZGluZyUyMHBob3RvZ3JhcGh5JTIwbWluaW1hbGlzdHxlbnwxfHx8fDE3NTUxNjE4NjJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      title: "Elegant Wedding Photography"
+      image:
+        "https://images.unsplash.com/photo-1721206624438-59a38acac7e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlbGVnYW50JTIwd2VkZGluZyUyMHBob3RvZ3JhcGh5JTIwbWluaW1hbGlzdHxlbnwxfHx8fDE3NTUxNjE4NjJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      title: "Elegant Wedding Photography",
     },
     {
-      image: "https://images.unsplash.com/photo-1654580342825-06483f272b87?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWRkaW5nJTIwY291cGxlJTIwYmxhY2slMjB3aGl0ZSUyMHBvcnRyYWl0fGVufDF8fHx8MTc1NTE2MTg2Nnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      title: "Timeless Portraits"
+      image:
+        "https://images.unsplash.com/photo-1654580342825-06483f272b87?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWRkaW5nJTIwY291cGxlJTIwYmxhY2slMjB3aGl0ZSUyMHBvcnRyYWl0fGVufDF8fHx8MTc1NTE2MTg2Nnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      title: "Timeless Portraits",
     },
     {
-      image: "https://images.unsplash.com/photo-1651935655362-05627ba0116f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxicmlkZSUyMHdlZGRpbmclMjBkcmVzcyUyMGNsZWFuJTIwbWluaW1hbHxlbnwxfHx8fDE3NTUxNjE4NzB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      title: "Bridal Beauty"
-    }
+      image:
+        "https://images.unsplash.com/photo-1651935655362-05627ba0116f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxicmlkZSUyMHdlZGRpbmclMjBkcmVzcyUyMGNsZWFuJTIwbWluaW1hbHxlbnwxfHx8fDE3NTUxNjE4NzB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      title: "Bridal Beauty",
+    },
   ];
 
   useEffect(() => {
@@ -64,7 +67,7 @@ export function Hero() {
       >
         <ChevronLeft className="w-6 h-6 text-white" />
       </button>
-      
+
       <button
         onClick={nextSlide}
         className="absolute right-6 top-1/2 -translate-y-1/2 bg-white/20 hover:bg-white/30 backdrop-blur-sm rounded-full p-3 transition-all"
@@ -82,8 +85,8 @@ export function Hero() {
             <Button className="bg-white text-black hover:bg-gray-100 px-8 py-3">
               Xem Portfolio
             </Button>
-            <Button 
-              variant="ghost" 
+            <Button
+              variant="ghost"
               className="text-white border border-white/30 hover:bg-white/10 px-8 py-3"
             >
               <Play className="w-4 h-4 mr-2" />
